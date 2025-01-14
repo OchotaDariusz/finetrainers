@@ -22,6 +22,7 @@ build:
     - "imageio-ffmpeg==0.5.1"
     - "numpy==1.26.4"
     - "wandb==0.19.1"
+    - "sageattention==1.0.6"
 
   run:
     - FLASH_ATTENTION_SKIP_CUDA_BUILD=TRUE pip install flash-attn --no-build-isolation
